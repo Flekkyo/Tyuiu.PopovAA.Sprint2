@@ -17,4 +17,4 @@ namespace Tyuiu.PopovAA.Sprint2.Task0.V27.Lib
             return res;
         }
     }
-}
+} 

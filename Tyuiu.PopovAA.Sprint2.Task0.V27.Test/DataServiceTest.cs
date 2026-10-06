@@ -16,4 +16,4 @@ namespace Tyuiu.PopovAA.Sprint2.Task0.V27.Test
              CollectionAssert.AreEqual(wait, res);
         }
     }
-}
+} 

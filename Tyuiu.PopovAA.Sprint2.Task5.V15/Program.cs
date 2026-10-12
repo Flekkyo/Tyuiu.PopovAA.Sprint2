@@ -30,6 +30,6 @@ namespace Tyuiu.PopovAA.Sprint2.Task5.V15
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(ds.FindDayName(x));
-        }
+        } 
     }
 }

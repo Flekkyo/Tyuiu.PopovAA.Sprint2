@@ -8,25 +8,25 @@ namespace Tyuiu.PopovAA.Sprint2.Task5.V15.Lib
             switch (k % 7)
             {
                 case 1:
-                    return $"{k}-й день - Понедельник";
+                    return "Понедельник";
 
                 case 2:
-                    return $"{k}-й день - Вторник";
+                    return "Вторник";
 
                 case 3:
-                    return $"{k}-й день - Среда";
+                    return "Среда";
 
                 case 4:
-                    return $"{k}-й день - Четверг";
+                    return "Четверг";
 
                 case 5:
-                    return $"{k}-й день - Пятница";
+                    return "Пятница";
 
                 case 6:
-                    return $"{k}-й день - Суббота";
+                    return "Суббота";
 
                 default:
-                    return $"{k}-й день - Воскресенье";
+                    return "Воскресенье";
             }
         }
     }

@@ -10,7 +10,7 @@ namespace Tyuiu.PopovAA.Sprint2.Task5.V15.Test
             DataService ds = new DataService();
             var x = 150;
             string res = ds.FindDayName(x);
-            Assert.AreEqual("150-й день - Среда", res);
+            Assert.AreEqual("Среда", res);
         }
     }
 }

@@ -35,4 +35,4 @@ namespace Tyuiu.PopovAA.Sprint2.Task4.V8
             Console.WriteLine(ds.Calculate(x, y));
         }
     }
-}
+} 

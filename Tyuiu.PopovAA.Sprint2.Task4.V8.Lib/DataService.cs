@@ -9,4 +9,4 @@ namespace Tyuiu.PopovAA.Sprint2.Task4.V8.Lib
             return Math.Round(z, 3);
         }
     }
-}
+} 

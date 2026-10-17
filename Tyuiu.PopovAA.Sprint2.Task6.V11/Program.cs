@@ -38,4 +38,4 @@ namespace Tyuiu.PopovAA.Sprint2.Task6.V11
             Console.WriteLine(ds.FindDateOfNextDay(g, m, n));
         }
     }
-} 
+}

@@ -15,4 +15,4 @@ namespace Tyuiu.PopovAA.Sprint2.Task6.V11.Test
             Assert.AreEqual("16.12.2019", res);
         }
     }
-} 
+}

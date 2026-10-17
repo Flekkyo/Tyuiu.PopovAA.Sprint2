@@ -19,7 +19,22 @@ namespace Tyuiu.PopovAA.Sprint2.Task6.V11.Lib
                 case (10, 31): return $"01.11.{g}";
                 case (11, 30): return $"01.12.{g}";
                 case (12, 31): return $"01.01.{g + 1}";
-                default: return $"{n + 1}.{m}.{g}";
+                default: 
+                    if (n < 10)
+                    {
+                        if (m < 10)
+                        {
+                            return $"0{n + 1}.0{m}.{g}";
+                        }
+                        else
+                        {
+                            return $"0{n + 1}.{m}.g";
+                        }
+                    }
+                    else
+                    {
+                        return $"{n + 1}.{m}.{g}";
+                    }
             }
         }
     }

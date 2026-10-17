@@ -7,20 +7,20 @@ namespace Tyuiu.PopovAA.Sprint2.Task6.V11.Lib
         {
             switch (m, n)
             {
-                case (1, 31): return $"{g}, {m + 1}, 1";
-                case (2, 28): return $"{g}, {m + 1}, 1";
-                case (3, 31): return $"{g}, {m + 1}, 1";
-                case (4, 30): return $"{g}, {m + 1}, 1";
-                case (5, 31): return $"{g}, {m + 1}, 1";
-                case (6, 30): return $"{g}, {m + 1}, 1";
-                case (7, 31): return $"{g}, {m + 1}, 1";
-                case (8, 31): return $"{g}, {m + 1}, 1";
-                case (9, 30): return $"{g}, {m + 1}, 1";
-                case (10, 31): return $"{g}, {m + 1}, 1";
-                case (11, 30): return $"{g}, {m + 1}, 1";
-                case (12, 31): return $"{g + 1}, 1, 1";
-                default: return $"{g}, {m}, {n + 1}";
+                case (01, 31): return $"01.02.{g}";
+                case (02, 28): return $"01.03.{g}";
+                case (03, 31): return $"01.04.{g}";
+                case (04, 30): return $"01.05.{g}";
+                case (05, 31): return $"01.06.{g}";
+                case (06, 30): return $"01.07.{g}";
+                case (07, 31): return $"01.08.{g}";
+                case (08, 31): return $"01.09.{g}";
+                case (09, 30): return $"01.10.{g}";
+                case (10, 31): return $"01.11.{g}";
+                case (11, 30): return $"01.12.{g}";
+                case (12, 31): return $"01.01.{g + 1}";
+                default: return $"{n + 1}.{m}.{g}";
             }
         }
     }
-}
+} 

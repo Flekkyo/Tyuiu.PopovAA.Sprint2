@@ -12,7 +12,7 @@ namespace Tyuiu.PopovAA.Sprint2.Task6.V11.Test
             int m = 12;
             int n = 15;
             var res = ds.FindDateOfNextDay(g, m, n);
-            Assert.AreEqual("2019, 12, 16", res);
+            Assert.AreEqual("16.12.2019", res);
         }
     }
-}
+} 

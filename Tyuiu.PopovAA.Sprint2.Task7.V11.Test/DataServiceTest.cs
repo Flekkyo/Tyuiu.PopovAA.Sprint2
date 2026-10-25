@@ -11,7 +11,7 @@ namespace Tyuiu.PopovAA.Sprint2.Task7.V11.Test
             var x = -0.2;
             var y = -0.5;
             var res = ds.CheckDotInShadedArea(x, y);
-            Assert.AreEqual(true, res); 
+            Assert.AreEqual(true, res);
         }
     }
 }

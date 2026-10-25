@@ -32,7 +32,7 @@ namespace Tyuiu.PopovAA.Sprint2.Task7.V11
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.CheckDotInShadedArea(x, y)); 
+            Console.WriteLine(ds.CheckDotInShadedArea(x, y));
         }
     }
 }

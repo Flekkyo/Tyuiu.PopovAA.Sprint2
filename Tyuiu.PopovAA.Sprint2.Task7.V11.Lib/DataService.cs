@@ -15,7 +15,7 @@ namespace Tyuiu.PopovAA.Sprint2.Task7.V11.Lib
             }
             else
             {
-                return false; 
+                return false;
             }
         }
     }
